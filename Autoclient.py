@@ -14,7 +14,7 @@ def on_release(key):
     
     if key == Key.esc:
         # Stop listener
-        sys.exit()
+        sys.exit(0)
         return False
 
 path = os.getcwd()
